@@ -1,4 +1,4 @@
-FROM myproject/minimal-notebook:latest
+FROM quay.io/thoth-station/s2i-minimal-notebook:v0.0.14
 
 USER root
 
