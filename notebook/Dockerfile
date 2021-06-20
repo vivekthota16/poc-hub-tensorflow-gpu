@@ -79,6 +79,6 @@ RUN yum install -y cuda-9-0
 #    chgrp -R 0 /tmp/src && \
 #    chmod -R g+w /tmp/src
 
-#USER 1001
+USER 1001
 
 #RUN /opt/app-root/builder/assemble
