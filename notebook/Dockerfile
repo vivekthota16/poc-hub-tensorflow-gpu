@@ -66,7 +66,7 @@ RUN yum install -y cuda-9-0
 
 #### NVIDIA CUDNN ####
 
-COPY . /tmp/src
+#COPY . /tmp/src
 
 RUN tar --no-same-owner -xzf /tmp/src/cudnn-9.0-linux-x64-v7.1.tgz -C /usr/local --wildcards 'cuda/lib64/libcudnn.so.*' && \
     rm /tmp/src/cudnn-*.tgz && \
