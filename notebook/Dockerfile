@@ -1,5 +1,5 @@
 #ROM quay.io/thoth-station/s2i-minimal-notebook:v0.0.14
-FROM centos/python-36-centos7:latest
+FROM image-registry.openshift-image-registry.svc:5000/myproject/jupyter-notebooks
 
 USER root
 
