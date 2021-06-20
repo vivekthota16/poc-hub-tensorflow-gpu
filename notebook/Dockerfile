@@ -74,11 +74,11 @@ RUN yum install -y cuda-9-0
 
 #### S2I build ####
 
-RUN rm -rf /tmp/src/.git* && \
-    chown -R 1001 /tmp/src && \
-    chgrp -R 0 /tmp/src && \
-    chmod -R g+w /tmp/src
+#RUN rm -rf /tmp/src/.git* && \
+#    chown -R 1001 /tmp/src && \
+#    chgrp -R 0 /tmp/src && \
+#    chmod -R g+w /tmp/src
 
-USER 1001
+#USER 1001
 
-RUN /opt/app-root/builder/assemble
+#RUN /opt/app-root/builder/assemble
